@@ -1,10 +1,12 @@
-- 👋 Hi, I’m @Sharma2232
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Python3 program to add two numbers
 
-<!---
-Sharma2232/Sharma2232 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+num1 = 15
+num2 = 12
+
+# Adding two nos
+import operator
+su = operator.add(num1,num2)
+
+# printing values
+print("Sum of {0} and {1} is {2}" .format(num1,
+									num2, su))
